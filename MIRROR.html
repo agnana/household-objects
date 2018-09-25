@@ -1,0 +1,208 @@
+
+<!doctype html>
+
+	<head>
+		<title> A Makeup Mirror. </title>
+
+	<style>
+
+	.mirrorframe{
+		width:500px;
+		height:500px;
+		background: black;
+		border-width:1px;
+		border-style:double;
+		border-color:black;
+		-moz-border-radius:250px;
+		-webkit-border-radius:250px;
+		position:absolute;
+		left:50px;
+		}
+
+	/* This is the metal surrounding the mirror */
+
+	.mirror{
+		width:450px;
+		height:450px;
+		background: white;
+		border-width:1px;
+		border-style:outset;
+		border-color:white;
+		-moz-border-radius:225px;
+		-webkit-border-radius:225px;
+		position:absolute;
+		left:75px;
+		top:30px;
+		}
+
+	/* This is the actual mirror */
+
+	.knob1{
+		width:50px;
+		height:35px;
+		background:black;
+		border-radius:20px;
+		position:absolute;
+		top:200px;
+		left:25px;
+		}
+
+	/* This is the knob on the left */
+
+	.screw1{
+		border-bottom:10px solid black;
+		border-left:10px solid transparent;
+		border-right:10px solid transparent;
+		border-radius:15px;
+		height:0;
+		width:3px;	
+		position:absolute;
+		left:13px;
+		top:212.5px;
+		transform:rotate(270deg);
+		}
+
+	/* This is the screw on the left */
+
+	.knob2{
+		width:50px;
+		height:35px;
+		background: black;
+		border-radius:20px;
+		position:absolute;
+		top:200px;
+		left:525px;
+		}
+
+	/* This is the knob on the right */
+
+	.screw2{
+		border-bottom:10px solid black;
+		border-left:10px solid transparent;
+		border-right:10px solid transparent;
+		border-radius:15px;
+		height:0;
+		width:3px;	
+		position:absolute;
+		left:563px;
+		top:212.5px;
+		transform:rotate(90deg);
+		}
+
+	/* This is the screw on the right */
+
+	.swivelbar{
+		width:500px;
+    	height:300px;
+   		background-color: none;
+    	border-top-left-radius:240px;
+    	border-top-right-radius:240px;
+    	border:10px solid black;
+    	border-bottom:0;
+    	position:absolute;
+    	left:40px;
+    	top:230px;
+    	transform:rotate(180deg);
+		}
+
+	/* This is how your mirror is able to flip a full 360 */
+
+	.arm{
+		width:60px;
+		height:240px;
+		background:black;
+		border-radius:20px;
+		position:absolute;
+		left:265px;
+		top:630px;
+		}
+
+	/* This is the arm that attaches the mirror and base */
+
+	.arm2{
+		width:45px;
+		height:400px;
+		background: black;
+		-moz-border-radius:100px / 60px;
+		border-radius:100px / 28px;
+		position:absolute;
+		left:273px;
+		top:535px;
+		}
+
+	/* This is the top part of the arm */
+
+	.arm3{
+		width:70px;
+		height:30px;
+		background: black;
+		border-radius:70px;
+		position:absolute;
+		left:260px;
+		top:620px;
+		}
+
+	/* This is the round detail placed on top of arm */
+
+	.prebase{
+    	width:150px;
+    	height:50px;
+    	background-color: black;
+    	border-top-left-radius:100px;
+    	border-top-right-radius:100px;
+    	border-bottom:0;
+    	position:absolute;
+    	top:910px;
+    	left:220px;
+		}
+
+	/* This is the curve placed on top of your base */
+
+	.base{
+		width:450px;
+    	height:90px;
+    	background-color:black;
+    	border-top-left-radius:110px;
+    	border-top-right-radius:110px;
+    	position:absolute;
+    	bottom:-260px;
+    	left:70px;
+		}
+
+	/* This is how your entire mirror stands */
+
+	</style>
+	</head>
+	<body>
+
+	<!-- The Makeup Mirror + Mirror Frame -->
+	<div class="mirrorframe"></div>
+	<div class="mirror"></div>
+
+	<!-- The Knobs + Screws -->
+	<div class="knob1" ></div>
+	<div class="screw1" ></div>
+	<div class="knob2" ></div>
+	<div class="screw2" ></div>
+
+	<!-- The Swivel Bar for the Mirror -->
+	<div class="swivelbar" ></div>
+
+	<!-- The Makeup Mirror Arm -->
+	<div class="arm"> </div>
+	<div class="arm2"> </div>
+	<div class="arm3"> </div>
+
+<!-- The Makeup Mirror Base -->
+	<div class="prebase"> </div>
+	<div class="base" ></div>
+
+	</body>
+	<!-- These are all the components for your makeup mirror. -->
+	
+</html>
+
+
+
+
+
